@@ -16,5 +16,5 @@ with open('alice.txt', mode="r", encoding="utf-8") as file:
 
 sorted_dict = dict(sorted(total_char.items()))
 
-with open("hw01.json", "w", encoding="utf-8") as output_file:
+with open("hw01_output.json.", "w", encoding="utf-8") as output_file:
     json.dump(sorted_dict, output_file, ensure_ascii=False, indent=4)
