@@ -27,5 +27,5 @@ with open("netflix_titles.tsv", mode="r", encoding="utf-8") as file:
         movies.append(movie)
 
 
-with open("netflix_movies.json", 'w', encoding="utf-8") as output_file:
+with open("netflix_movies.json", "w", encoding="utf-8") as output_file:
     json.dump(movies, output_file, ensure_ascii=False, indent=4)
